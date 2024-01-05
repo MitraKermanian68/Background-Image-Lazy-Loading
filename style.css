@@ -1,0 +1,30 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: #120546;
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col{
+    margin: 15px;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg{
+    background: none !important;
+}
